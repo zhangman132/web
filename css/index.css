@@ -1,0 +1,257 @@
+/*全局*/
+body
+{
+    margin: 0;
+    padding: 0;
+    list-style: none outside none;
+    text-decoration:none;
+    background-color: #FFF0F5;
+}
+a
+{
+    text-decoration: none;
+}
+/*页眉header*/
+header
+{
+    height: 90px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+header p
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #FFCCCC;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 华文彩云;
+    line-height: 70px;
+}
+header p span
+{
+    font-family: 华文琥珀;
+}
+header img
+{
+    margin-top: 0px;
+    margin-right: 20px;
+    float: right;
+}
+/*导航nav*/
+nav
+{
+    height: 50px;
+    width: 100%;
+    background-color: #f2708c;
+}
+nav ul
+{
+    margin: 0;
+    margin-left: 120px;
+    padding: 0;
+    border: 0px;
+    list-style: none;
+    
+}
+nav ul span#slogan
+{
+    margin-right: 10px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 华文彩云;
+    line-height: 50px;
+    float: right;
+
+}
+
+nav ul li
+{
+    height: 50px;
+    width: 110px;
+    margin: 0;
+    padding: 0;
+    border: 0px;
+    display: inline-block;
+ 
+}
+nav ul li a
+{
+    height: 50px;
+    width: 110px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 50px;/*导航栏文字垂直居中*/
+    text-decoration:none;
+    display: block;
+}
+nav ul li a:hover
+{
+    background-color: #F4587a;
+}
+nav ul li#selected
+{
+    height:50px;
+    background-color: #ffffff;
+}
+nav ul li#selected a
+{
+    height: 50px;
+    width: 110px;
+    text-align: center;
+    color: #F2708c;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration:none;
+    display: block;
+}
+nav ul li#selected a:hover
+{
+    color: #ffffff;
+}
+/*容器container*/
+#container
+{
+    height: 980px;
+    margin: 0px 120px 50px 120px ;
+    padding: 10px 0px 0px 0px;
+    background-color: #ffffff;
+}
+#container ul#tag
+{
+    margin: 10px 50px 40px 50px;
+    padding: 0;
+    display: block;
+    border-bottom: thick solid #FFCCCC;
+}
+#container ul#tag li
+{
+    margin-bottom: 5px;
+    display: inline-block;
+}
+#container ul#tag li#page
+{
+    color: #F2708c;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+#container ul#tag li#place
+{
+    color: #FFCCCC;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: sans-serif;
+    float: right;
+}
+/*主内容区section*/
+div#container section#top,div#container section#bottom
+{
+    margin: 0 auto;
+    padding: 0;
+    width: 784px;
+    text-align: center;
+}
+section article.part
+{
+    width: 300px;
+    height: 380px;
+    background-image: url(../img/articlebackground.jpg);
+    background-repeat: repeat;
+    display: inline-block;
+}
+section article#part1,section article#part3
+{
+    margin: 0px 40px 80px 0px;
+}
+section article#part2,section article#part4
+{
+    margin: 0px 0px 80px 40px;
+}
+#container section article.part .pictures
+{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#container section article.part .pictures .picture1,#container section article.part .pictures .picture2
+{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+#container section article.part .pictures .picture1 img#mylife1,#container section article.part .pictures .picture2 img#mylife3,
+#container section article.part .pictures .picture1 img#mystudy1,#container section article.part .pictures .picture2 img#mystudy3,
+#container section article.part .pictures .picture1 img#myself1,#container section article.part .pictures .picture2 img#myself3,
+#container section article.part .pictures .picture1 img#mytest1,#container section article.part .pictures .picture2 img#mytest3
+{
+    margin: 20px 10px 10px 0px;
+}
+#container section article.part .pictures .picture1 img#mylife2,#container section article.part .pictures .picture2 img#mylife4,
+#container section article.part .pictures .picture1 img#mystudy2,#container section article.part .pictures .picture2 img#mystudy4,
+#container section article.part .pictures .picture1 img#myself2,#container section article.part .pictures .picture2 img#myself4,
+#container section article.part .pictures .picture1 img#mytest2,#container section article.part .pictures .picture2 img#mytest4
+{
+    margin: 20px 0px 10px 10px;
+}
+#container section article.part .title
+{
+    width: 195px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #f2708c;
+}
+#container section article.part .title span
+{
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration:none;
+    
+}
+#container section article.part .content
+{
+    margin: 0 auto;
+}
+#container section article.part .content p
+{
+    text-align: center;
+    color: #f2708c;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: sans-serif;
+    line-height: normal;
+    text-decoration:none;
+}
+/*边栏区aside*/
+/*页脚footer*/
+footer
+{
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 0;
+}
+footer p
+{
+    text-align: center;
+    line-height: 5px;
+}
+footer p span
+{
+    color: #ffafaf;
+    font-family: Georgia;
+    font-size: 12px;
+    background-color: #ffffff;
+}

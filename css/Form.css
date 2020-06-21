@@ -1,0 +1,220 @@
+/*全局*/
+body
+{
+    margin: 0;
+    padding: 0;
+    list-style: none outside none;
+    text-decoration:none;
+    background-color: #FFF0F5;
+}
+ul
+{
+    list-style: none;
+    text-decoration: none;
+}
+/*页眉header*/
+header
+{
+    height: 90px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+header p
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #FFCCCC;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 华文彩云;
+    line-height: 70px;
+}
+header p span
+{
+    font-family: 华文琥珀;
+}
+header img
+{
+    margin-top: 0px;
+    margin-right: 0px;
+    float: right;
+}
+/*导航nav*/
+nav
+{
+    height: 50px;
+    width: 100%;
+    background-color: #F2708c;
+}
+nav ul
+{
+    margin: 0;
+    margin-left: 120px;
+    padding: 0;
+    border: 0px;
+    list-style: none;
+    
+}
+nav ul span#slogan
+{
+    margin-right: 0px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 华文彩云;
+    line-height: 50px;
+    float: right;
+
+}
+nav ul li
+{
+    height: 50px;
+    width: 110px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+ 
+}
+nav ul li a
+{
+    height: 50px;
+    width: 110px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 50px;/*导航栏文字垂直居中*/
+    text-decoration:none;
+    display: block;
+}
+nav ul li a:hover
+{
+    background-color: #F4587a;
+}
+nav ul li#selected
+{
+    height:50px;
+    background-color: #ffffff;
+}
+nav ul li#selected a
+{
+    height: 50px;
+    width: 110px;
+    text-align: center;
+    color: #F2708c;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration:none;
+    display: block;
+}
+nav ul li#selected a:hover
+{
+    color: #ffffff;
+}
+/*容器container*/
+#container
+{
+    height: 900px;
+    margin: 0px 120px 50px 120px ;
+    padding-top: 10px;
+    background-color: #ffffff;
+}
+#container ul#tag
+{
+    margin: 10px 50px 40px 50px;
+    padding: 0;
+    display: block;
+    border-bottom: thick solid #FFCCCC;
+}
+#container ul#tag li
+{
+    margin-bottom: 5px;
+    display: inline-block;
+}
+#container ul#tag li#page
+{
+    color: #F2708c;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+#container ul#tag li#place
+{
+    color: #FFCCCC;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: sans-serif;
+    float: right;
+}
+/*表单区form*/
+table
+{
+    width: 920px;
+    margin: 0 auto;
+    padding: 0;
+    border: thick solid #FFCCCC;
+    color: #f7839c;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: sans-serif;
+}
+table tr td
+{
+    padding-left: 20px;
+}
+tr td.part
+{
+    height: 30px;
+    padding-left: 10px;
+    color: #F2708c;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    border: thin solid #ffeeee;
+    background-color: #ffeeee;
+}
+tr td#submit
+{
+    margin: 0 auto ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+tr td#submit input
+{
+    color: #F2708c;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: sans-serif;
+    border: thin solid #FFCCCC;
+    border-radius: 6px;
+    background-color: #ffeeee;
+
+}
+tr td span.ps
+{
+    color: #FFCCCC;
+    font-weight: normal;
+}
+/*页脚footer*/
+footer
+{
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 0;
+}
+footer p
+{
+    text-align: center;
+    line-height: 5px;
+}
+footer p span
+{
+    color: #ffafaf;
+    font-family: Georgia;
+    font-size: 12px;
+    background-color: #ffffff;
+}
